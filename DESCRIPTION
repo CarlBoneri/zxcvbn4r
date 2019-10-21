@@ -1,0 +1,17 @@
+Package: zxcvbn4r
+Title: R binding to the zxcvbn-cli library
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Carl",
+           family = "Boneri",
+           role = c("aut", "cre"),
+           email = "cboneri@gmail.com")
+Description: zxcvbn is a password strength estimator inspired by password crackers. Through pattern matching and conservative entropy calculations, it recognizes and weighs 30k common passwords, common names and surnames according to US census data, popular English words from Wikipedia and US television and movies, and other common patterns like dates, repeats (aaa), sequences (abcd), keyboard patterns (qwertyuiop), and l33t speak.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    grabargs
+URL: https://github.com/CarlBoneri/zxcvbn4r
+BugReports: https://github.com/CarlBoneri/zxcvbn4r/issues
